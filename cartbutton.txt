@@ -1,0 +1,7 @@
+<button class="btn btn-success flex-fill disabled" name="add" style="background: #16A085; cursor: not-allowed;" disabled><i class="fas fa-shopping-cart"></i> Add to cart </button>
+<button class="btn flex-fill text-white" style="background: #20b2aa;"><i class="fas fa-shopping-bag"></i><a style="text-decoration:none; color:white;" href='order.php?id=<?php echo $id; ?>'> Buy Now </a> </button>
+
+
+
+<button class="btn btn-success flex-fill" name="<?php echo $btn; ?>" style="background: #16A085;"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+							<button class="btn flex-fill text-white" style="background: #20b2aa;"><i class="fas fa-shopping-bag"></i><a style="text-decoration:none; color:white;" href='order.php?id=<?php echo $id; ?>'> Buy Now </a> </button>

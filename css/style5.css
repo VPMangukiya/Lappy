@@ -1,0 +1,87 @@
+.content{
+    position:absolute;
+    width: 100%;
+    padding-top: 12%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    background: white;
+}
+
+.box{
+    width: 100%;   
+    background:white;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+
+.box h1{
+    /*color:black;*/
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+    /*text-align:center ;*/
+}
+
+.box input[type="text"] , .box input[type="password"] , .box select
+{
+background: none;
+margin:20px auto;
+text-align:center;
+border: 1px solid green;
+padding:auto;
+outline:none;
+color: gray;
+border-radius: 10px;
+transition: 0.25s;
+width:450px;
+}
+
+.box input[type="text"]:focus , .box input[type="password"]:focus{
+    /*width:100%;*/
+    border-radius: red;
+}*/
+
+
+.box .form-control
+{
+    background: none;
+margin:20px auto;
+text-align:center;
+border: 1px solid green;
+padding:auto;
+outline:none;
+color: gray;
+border-radius: 10px;
+transition: 0.25s;
+width:450px;
+}*/
+
+.box button[type="submit"]
+{
+    background: none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    background-color: green;
+    transition: 0.25s;
+    letter-spacing: 1px;
+    font-size:20px;
+}
+
+.box button[type="submit"]:hover
+{
+
+    font-size: 15px;
+    border-radius: 1px;
+    border: solid 2px;
+    background-color: green;
+}
